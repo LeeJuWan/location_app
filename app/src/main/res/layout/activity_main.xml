@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="100dp">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/myLocationSendFriend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            android:fontFamily="@font/dohyeonregular"
+            android:text="@string/smsTrans"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/myLocationFindFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            android:fontFamily="@font/dohyeonregular"
+            android:text="@string/mylocationFood"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/myLocationFindGas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            android:fontFamily="@font/dohyeonregular"
+            android:text="@string/mylocationGas"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/myLocationFindBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_btn"
+            android:fontFamily="@font/dohyeonregular"
+            android:text="@string/mylocationBank"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dohyeonregular"
+            android:textColor="#111111"
+            android:text="내위치를 부탁해 위치 관련 내용"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="@font/dohyeonregular"
+            android:text="@string/location_info_text"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+
+</LinearLayout>

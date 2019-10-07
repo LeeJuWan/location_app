@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">내위치를부탁해</string>
+    <string name="location_info_text">내위치를 부탁해는 사용자의 위치정보를 이용하여 서비스를\n제공합니다.
+    그러나 절대 사용자의 위치정보를 서버에 저장하거나 제 3자에게 보내지않습니다.\n\n필요권한은 다음과 같습니다.\n
+    [1]. android.permission.ACCESS_FINE_LOCATION\n
+    [2]. android.permission.ACCESS_COARSE_LOCATION\n
+    [3]. android.permission.READ_CONTACTS\n
+    [4]. android.permission.SEND_SMS\n\n
+        권한 [1],[2]는 사용자의 위치권한을 이용하여 음식점찾기,주유소찾기,은행 찾기,문자위치전송을 제공합니다.\n\n
+        권한 [3],[4]는 사용자의 주소록과 문자전송 권한을 이용하여 문자 위치 전송을 제공합니다.
+    </string>
+    <string name="smsTrans">지인에게 내 위치 전송하기</string>
+    <string name="mylocationFood">내 주변 음식점 찾기</string>
+    <string name="mylocationGas">내 주변 주유소 찾기</string>
+    <string name="mylocationBank">내 주변 은행 찾기</string>
+
+    <string name="serch_Food">주변 음식점 검색</string>
+    <string name="serch_Gas">주변 주유소 검색</string>
+    <string name="serch_Bank">주변 은행 검색</string>
+</resources>
